@@ -1,1 +1,1 @@
-web: bokeh serve --port=$PORT --address=0.0.0.0 --allow-websocket-origin=interactive-map-covid.herokuapp.com --use-xheaders interactive_map_final.py
+web: bokeh serve --port=$PORT --address=0.0.0.0 --allow-websocket-origin=covid19development.herokuapp.com --use-xheaders myapp2.py
