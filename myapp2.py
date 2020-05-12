@@ -1,25 +1,13 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May 12 10:20:46 2020
 
-@author: henri
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 11 01:33:48 2020
-
-@author: henri
-"""
 
 # data load
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from datetime import datetime
-import calendar
+#import calendar
 
-df = pd.read_csv("us_states_covid19_daily.csv",index_col=False)
+df = pd.read_csv("Data/us_states_covid19_daily.csv",index_col=False)
 
 df = df.set_index(pd.to_datetime(df['date'], format="%Y%m%d"))
 
