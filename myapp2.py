@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
-import calendar
+#import calendar
 
 df = pd.read_csv("Data/us_states_covid19_daily.csv",index_col=False)
 
