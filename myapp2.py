@@ -6,7 +6,7 @@ import pandas as pd
 from datetime import datetime
 #import calendar
 
-df = pd.read_csv("us_states_covid19_daily.csv",index_col=False)
+df = pd.read_csv("Data/us_states_covid19_daily.csv",index_col=False)
 
 df = df.set_index(pd.to_datetime(df['date'], format="%Y%m%d"))
 
