@@ -1,16 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May 12 10:20:46 2020
 
-@author: henri
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Mon May 11 01:33:48 2020
-
-@author: henri
-"""
 
 # data load
 import numpy as np
