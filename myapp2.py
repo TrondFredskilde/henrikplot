@@ -15,7 +15,7 @@ Created on Mon May 11 01:33:48 2020
 # data load
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from datetime import datetime
 #import calendar
 
@@ -130,7 +130,7 @@ source = ColumnDataSource(data={'positive': df_full[df_full.state==state].iloc[:
     
     
 # Create a figure with x_axis_type='datetime': p
-p = figure(title = "COVID-19 development in each US state",plot_width=700*2,plot_height=400*2,x_axis_type='log',y_axis_type='log', x_axis_label='Total confirmed cases', y_axis_label='New weekly cases')
+p = figure(title = "COVID-19 development in each US state",plot_width=700,plot_height=400,x_axis_type='log',y_axis_type='log', x_axis_label='Total confirmed cases', y_axis_label='New weekly cases')
 
 # Plot date along the x-axis and price along the y-axis
 p.line(x='positive', y='new_cases', source=source)
