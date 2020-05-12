@@ -15,9 +15,9 @@ Created on Mon May 11 01:33:48 2020
 # data load
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from datetime import datetime
-import calendar
+#import calendar
 import math
 
 df = pd.read_csv("us_states_covid19_daily.csv",index_col=False)
@@ -85,7 +85,7 @@ df = df[['state', 'positive', 'negative',
            'deathIncrease',
            'hospitalizedIncrease',
            ]]
-import datetime
+#import datetime
 df_full = pd.DataFrame()
 for state in list(states.keys()): #list(states.keys()) #["NY"]
     df_state = df[df.state==state]
